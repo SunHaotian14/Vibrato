@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A67899278F14D900ACA278 /* VibratoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A67898278F14D900ACA278 /* VibratoApp.swift */; };
+		50A6789B278F14D900ACA278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A6789A278F14D900ACA278 /* ContentView.swift */; };
+		50A6789D278F14DB00ACA278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A6789C278F14DB00ACA278 /* Assets.xcassets */; };
+		50A678A0278F14DB00ACA278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A6789F278F14DB00ACA278 /* Preview Assets.xcassets */; };
+		50A678AA278F14DB00ACA278 /* VibratoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A678A9278F14DB00ACA278 /* VibratoTests.swift */; };
+		50A678B4278F14DB00ACA278 /* VibratoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A678B3278F14DB00ACA278 /* VibratoUITests.swift */; };
+		50A678B6278F14DB00ACA278 /* VibratoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A678B5278F14DB00ACA278 /* VibratoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50A678A6278F14DB00ACA278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A6788D278F14D900ACA278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A67894278F14D900ACA278;
+			remoteInfo = Vibrato;
+		};
+		50A678B0278F14DB00ACA278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A6788D278F14D900ACA278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A67894278F14D900ACA278;
+			remoteInfo = Vibrato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50A67895278F14D900ACA278 /* Vibrato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vibrato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A67898278F14D900ACA278 /* VibratoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibratoApp.swift; sourceTree = "<group>"; };
+		50A6789A278F14D900ACA278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50A6789C278F14DB00ACA278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A6789F278F14DB00ACA278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50A678A5278F14DB00ACA278 /* VibratoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibratoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A678A9278F14DB00ACA278 /* VibratoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibratoTests.swift; sourceTree = "<group>"; };
+		50A678AF278F14DB00ACA278 /* VibratoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibratoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A678B3278F14DB00ACA278 /* VibratoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibratoUITests.swift; sourceTree = "<group>"; };
+		50A678B5278F14DB00ACA278 /* VibratoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibratoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A67892278F14D900ACA278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A678A2278F14DB00ACA278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A678AC278F14DB00ACA278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A6788C278F14D900ACA278 = {
+			isa = PBXGroup;
+			children = (
+				50A67897278F14D900ACA278 /* Vibrato */,
+				50A678A8278F14DB00ACA278 /* VibratoTests */,
+				50A678B2278F14DB00ACA278 /* VibratoUITests */,
+				50A67896278F14D900ACA278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50A67896278F14D900ACA278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A67895278F14D900ACA278 /* Vibrato.app */,
+				50A678A5278F14DB00ACA278 /* VibratoTests.xctest */,
+				50A678AF278F14DB00ACA278 /* VibratoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A67897278F14D900ACA278 /* Vibrato */ = {
+			isa = PBXGroup;
+			children = (
+				50A67898278F14D900ACA278 /* VibratoApp.swift */,
+				50A6789A278F14D900ACA278 /* ContentView.swift */,
+				50A6789C278F14DB00ACA278 /* Assets.xcassets */,
+				50A6789E278F14DB00ACA278 /* Preview Content */,
+			);
+			path = Vibrato;
+			sourceTree = "<group>";
+		};
+		50A6789E278F14DB00ACA278 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50A6789F278F14DB00ACA278 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50A678A8278F14DB00ACA278 /* VibratoTests */ = {
+			isa = PBXGroup;
+			children = (
+				50A678A9278F14DB00ACA278 /* VibratoTests.swift */,
+			);
+			path = VibratoTests;
+			sourceTree = "<group>";
+		};
+		50A678B2278F14DB00ACA278 /* VibratoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50A678B3278F14DB00ACA278 /* VibratoUITests.swift */,
+				50A678B5278F14DB00ACA278 /* VibratoUITestsLaunchTests.swift */,
+			);
+			path = VibratoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A67894278F14D900ACA278 /* Vibrato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A678B9278F14DB00ACA278 /* Build configuration list for PBXNativeTarget "Vibrato" */;
+			buildPhases = (
+				50A67891278F14D900ACA278 /* Sources */,
+				50A67892278F14D900ACA278 /* Frameworks */,
+				50A67893278F14D900ACA278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vibrato;
+			productName = Vibrato;
+			productReference = 50A67895278F14D900ACA278 /* Vibrato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50A678A4278F14DB00ACA278 /* VibratoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A678BC278F14DB00ACA278 /* Build configuration list for PBXNativeTarget "VibratoTests" */;
+			buildPhases = (
+				50A678A1278F14DB00ACA278 /* Sources */,
+				50A678A2278F14DB00ACA278 /* Frameworks */,
+				50A678A3278F14DB00ACA278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A678A7278F14DB00ACA278 /* PBXTargetDependency */,
+			);
+			name = VibratoTests;
+			productName = VibratoTests;
+			productReference = 50A678A5278F14DB00ACA278 /* VibratoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50A678AE278F14DB00ACA278 /* VibratoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A678BF278F14DB00ACA278 /* Build configuration list for PBXNativeTarget "VibratoUITests" */;
+			buildPhases = (
+				50A678AB278F14DB00ACA278 /* Sources */,
+				50A678AC278F14DB00ACA278 /* Frameworks */,
+				50A678AD278F14DB00ACA278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A678B1278F14DB00ACA278 /* PBXTargetDependency */,
+			);
+			name = VibratoUITests;
+			productName = VibratoUITests;
+			productReference = 50A678AF278F14DB00ACA278 /* VibratoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A6788D278F14D900ACA278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					50A67894278F14D900ACA278 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					50A678A4278F14DB00ACA278 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 50A67894278F14D900ACA278;
+					};
+					50A678AE278F14DB00ACA278 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 50A67894278F14D900ACA278;
+					};
+				};
+			};
+			buildConfigurationList = 50A67890278F14D900ACA278 /* Build configuration list for PBXProject "Vibrato" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A6788C278F14D900ACA278;
+			productRefGroup = 50A67896278F14D900ACA278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A67894278F14D900ACA278 /* Vibrato */,
+				50A678A4278F14DB00ACA278 /* VibratoTests */,
+				50A678AE278F14DB00ACA278 /* VibratoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A67893278F14D900ACA278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A678A0278F14DB00ACA278 /* Preview Assets.xcassets in Resources */,
+				50A6789D278F14DB00ACA278 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A678A3278F14DB00ACA278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A678AD278F14DB00ACA278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A67891278F14D900ACA278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A6789B278F14D900ACA278 /* ContentView.swift in Sources */,
+				50A67899278F14D900ACA278 /* VibratoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A678A1278F14DB00ACA278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A678AA278F14DB00ACA278 /* VibratoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A678AB278F14DB00ACA278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A678B6278F14DB00ACA278 /* VibratoUITestsLaunchTests.swift in Sources */,
+				50A678B4278F14DB00ACA278 /* VibratoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50A678A7278F14DB00ACA278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A67894278F14D900ACA278 /* Vibrato */;
+			targetProxy = 50A678A6278F14DB00ACA278 /* PBXContainerItemProxy */;
+		};
+		50A678B1278F14DB00ACA278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A67894278F14D900ACA278 /* Vibrato */;
+			targetProxy = 50A678B0278F14DB00ACA278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50A678B7278F14DB00ACA278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50A678B8278F14DB00ACA278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A678BA278F14DB00ACA278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vibrato/Preview Content\"";
+				DEVELOPMENT_TEAM = 9JQS4C5N2L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Haotian.Vibrato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50A678BB278F14DB00ACA278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vibrato/Preview Content\"";
+				DEVELOPMENT_TEAM = 9JQS4C5N2L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Haotian.Vibrato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50A678BD278F14DB00ACA278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JQS4C5N2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Haotian.VibratoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vibrato.app/Vibrato";
+			};
+			name = Debug;
+		};
+		50A678BE278F14DB00ACA278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JQS4C5N2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Haotian.VibratoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vibrato.app/Vibrato";
+			};
+			name = Release;
+		};
+		50A678C0278F14DB00ACA278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JQS4C5N2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Haotian.VibratoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vibrato;
+			};
+			name = Debug;
+		};
+		50A678C1278F14DB00ACA278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JQS4C5N2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Haotian.VibratoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vibrato;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A67890278F14D900ACA278 /* Build configuration list for PBXProject "Vibrato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A678B7278F14DB00ACA278 /* Debug */,
+				50A678B8278F14DB00ACA278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A678B9278F14DB00ACA278 /* Build configuration list for PBXNativeTarget "Vibrato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A678BA278F14DB00ACA278 /* Debug */,
+				50A678BB278F14DB00ACA278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A678BC278F14DB00ACA278 /* Build configuration list for PBXNativeTarget "VibratoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A678BD278F14DB00ACA278 /* Debug */,
+				50A678BE278F14DB00ACA278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A678BF278F14DB00ACA278 /* Build configuration list for PBXNativeTarget "VibratoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A678C0278F14DB00ACA278 /* Debug */,
+				50A678C1278F14DB00ACA278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50A6788D278F14D900ACA278 /* Project object */;
+}
