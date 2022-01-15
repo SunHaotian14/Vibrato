@@ -11,7 +11,7 @@ import SwiftUI
 struct VibratoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HelpView()
         }
     }
 }

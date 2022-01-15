@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502501A32792D7FA00440D26 /* PersonalWebsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502501A22792D7FA00440D26 /* PersonalWebsite.swift */; };
+		50760A8927906D84009FFCA8 /* EasterEgg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50760A8827906D84009FFCA8 /* EasterEgg.swift */; };
 		50A67899278F14D900ACA278 /* VibratoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A67898278F14D900ACA278 /* VibratoApp.swift */; };
-		50A6789B278F14D900ACA278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A6789A278F14D900ACA278 /* ContentView.swift */; };
+		50A6789B278F14D900ACA278 /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A6789A278F14D900ACA278 /* Help.swift */; };
 		50A6789D278F14DB00ACA278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A6789C278F14DB00ACA278 /* Assets.xcassets */; };
 		50A678A0278F14DB00ACA278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A6789F278F14DB00ACA278 /* Preview Assets.xcassets */; };
 		50A678AA278F14DB00ACA278 /* VibratoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A678A9278F14DB00ACA278 /* VibratoTests.swift */; };
 		50A678B4278F14DB00ACA278 /* VibratoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A678B3278F14DB00ACA278 /* VibratoUITests.swift */; };
 		50A678B6278F14DB00ACA278 /* VibratoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A678B5278F14DB00ACA278 /* VibratoUITestsLaunchTests.swift */; };
+		50A678C5278F1C9F00ACA278 /* ProblemStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A678C4278F1C9F00ACA278 /* ProblemStatement.swift */; };
+		50B5194E279073AB00DBCB8F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B5194D279073AB00DBCB8F /* Home.swift */; };
+		50B51950279073D100DBCB8F /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B5194F279073D100DBCB8F /* Setting.swift */; };
+		50B519522790765B00DBCB8F /* Cake.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B519512790765B00DBCB8F /* Cake.png */; };
+		50B51954279076CB00DBCB8F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B51953279076CB00DBCB8F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		502501A22792D7FA00440D26 /* PersonalWebsite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalWebsite.swift; sourceTree = "<group>"; };
+		50760A8827906D84009FFCA8 /* EasterEgg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasterEgg.swift; sourceTree = "<group>"; };
 		50A67895278F14D900ACA278 /* Vibrato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vibrato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A67898278F14D900ACA278 /* VibratoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibratoApp.swift; sourceTree = "<group>"; };
-		50A6789A278F14D900ACA278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50A6789A278F14D900ACA278 /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
 		50A6789C278F14DB00ACA278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50A6789F278F14DB00ACA278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50A678A5278F14DB00ACA278 /* VibratoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibratoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,11 @@
 		50A678AF278F14DB00ACA278 /* VibratoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibratoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A678B3278F14DB00ACA278 /* VibratoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibratoUITests.swift; sourceTree = "<group>"; };
 		50A678B5278F14DB00ACA278 /* VibratoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibratoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50A678C4278F1C9F00ACA278 /* ProblemStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemStatement.swift; sourceTree = "<group>"; };
+		50B5194D279073AB00DBCB8F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		50B5194F279073D100DBCB8F /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		50B519512790765B00DBCB8F /* Cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cake.png; sourceTree = "<group>"; };
+		50B51953279076CB00DBCB8F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		502501A12792D7D000440D26 /* Help Pages */ = {
+			isa = PBXGroup;
+			children = (
+				50A6789A278F14D900ACA278 /* Help.swift */,
+				50A678C4278F1C9F00ACA278 /* ProblemStatement.swift */,
+				502501A22792D7FA00440D26 /* PersonalWebsite.swift */,
+			);
+			path = "Help Pages";
+			sourceTree = "<group>";
+		};
+		502501A42792E0A700440D26 /* Common Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				50760A8827906D84009FFCA8 /* EasterEgg.swift */,
+			);
+			path = "Common Widgets";
+			sourceTree = "<group>";
+		};
+		502501A72792E28A00440D26 /* Record Pages */ = {
+			isa = PBXGroup;
+			children = (
+				50B51953279076CB00DBCB8F /* MapView.swift */,
+			);
+			path = "Record Pages";
+			sourceTree = "<group>";
+		};
+		502501A82792E2B700440D26 /* Home Pages */ = {
+			isa = PBXGroup;
+			children = (
+				50B5194D279073AB00DBCB8F /* Home.swift */,
+			);
+			path = "Home Pages";
+			sourceTree = "<group>";
+		};
+		502501A92792E2DF00440D26 /* Setting Pages */ = {
+			isa = PBXGroup;
+			children = (
+				50B5194F279073D100DBCB8F /* Setting.swift */,
+			);
+			path = "Setting Pages";
+			sourceTree = "<group>";
+		};
 		50A6788C278F14D900ACA278 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +151,10 @@
 			isa = PBXGroup;
 			children = (
 				50A67898278F14D900ACA278 /* VibratoApp.swift */,
-				50A6789A278F14D900ACA278 /* ContentView.swift */,
 				50A6789C278F14DB00ACA278 /* Assets.xcassets */,
+				50B5194A279071EE00DBCB8F /* Views */,
+				50B5194C2790723C00DBCB8F /* Resources */,
+				50B5194B2790723400DBCB8F /* Model */,
 				50A6789E278F14DB00ACA278 /* Preview Content */,
 			);
 			path = Vibrato;
@@ -125,6 +183,33 @@
 				50A678B5278F14DB00ACA278 /* VibratoUITestsLaunchTests.swift */,
 			);
 			path = VibratoUITests;
+			sourceTree = "<group>";
+		};
+		50B5194A279071EE00DBCB8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				502501A82792E2B700440D26 /* Home Pages */,
+				502501A72792E28A00440D26 /* Record Pages */,
+				502501A92792E2DF00440D26 /* Setting Pages */,
+				502501A12792D7D000440D26 /* Help Pages */,
+				502501A42792E0A700440D26 /* Common Widgets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50B5194B2790723400DBCB8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50B5194C2790723C00DBCB8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50B519512790765B00DBCB8F /* Cake.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B519522790765B00DBCB8F /* Cake.png in Resources */,
 				50A678A0278F14DB00ACA278 /* Preview Assets.xcassets in Resources */,
 				50A6789D278F14DB00ACA278 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +343,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50A6789B278F14D900ACA278 /* ContentView.swift in Sources */,
+				50A6789B278F14D900ACA278 /* Help.swift in Sources */,
 				50A67899278F14D900ACA278 /* VibratoApp.swift in Sources */,
+				50B51950279073D100DBCB8F /* Setting.swift in Sources */,
+				50B5194E279073AB00DBCB8F /* Home.swift in Sources */,
+				50760A8927906D84009FFCA8 /* EasterEgg.swift in Sources */,
+				50B51954279076CB00DBCB8F /* MapView.swift in Sources */,
+				50A678C5278F1C9F00ACA278 /* ProblemStatement.swift in Sources */,
+				502501A32792D7FA00440D26 /* PersonalWebsite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
